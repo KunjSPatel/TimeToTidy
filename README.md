@@ -1,3 +1,5 @@
+# TimeToTidy: Transforming chaos into cleanliness, one space at a time
+
 # TimeToTidy
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.7.
