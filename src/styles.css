@@ -5,7 +5,8 @@
 - 1.1 Input Elements
 2. Global elements
 - 2.1 Header
-- 2.2 Logo
+- 2.2 
+
 - 2.3 Buttons
 - 2.4 Navigation
 - 2.5 Social Elements
@@ -354,7 +355,7 @@ section {
 }
 
 #logo img {
-    max-height: 175px;
+    max-height: 115px;
     vertical-align: top;
     margin-right: 15px;
 }
@@ -494,9 +495,12 @@ section {
     line-height: 71px;
     display: block;
     padding: 0 10px;
+    font-size: 17px;
+    font-weight: 500;
 }
 
 #header nav a:hover {
+    color: #F1E261;
     opacity: 0.6;
 }
 
@@ -722,12 +726,8 @@ h1 {
 }
 
 h2 {
-    padding: 14px 0;
 }
 
-h3 {
-    padding: 10px 0;
-}
 
 h4 {
     padding: 7px 0;
@@ -2451,7 +2451,7 @@ a:hover, #header.nav-solid nav a:hover {
 /* Banner Background and Text Colors */
 
 #banner {
-    background: url("/assets/images/banner-images/banner-1.jpg") no-repeat center top;
+    background: url("/assets/images/banner-images/banner-new.jpg") no-repeat center top;
     background-size:cover;
 }
 
@@ -2499,8 +2499,8 @@ body {
 
 #banner h2 {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size:18px;
-    font-weight:300;
+    font-size:17px;
+    font-weight:450;
     color:#111;
 }
 
@@ -2518,7 +2518,7 @@ body {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
     font-size: 16px;
     font-weight:300;
-    color:#9c9c9c;
+    color:#5eadc4;
 }
 
 /* Testimonial */
@@ -2606,8 +2606,8 @@ h6 {
 /* Button Hover Color */
 
 .button:hover,  input[type="submit"]:hover {
-    border-color:#d2b356;
-    color:#d2b356;
+    border-color:#5eadc4;
+    color:#5eadc4;
 }
 
 
@@ -2633,8 +2633,8 @@ h6 {
 /* Button Hover Color */
 
 #banner .button:hover {
-    color:#d2b356;
-    border-color:#d2b356;
+    color:#000000;
+    border-color:#F1E261;
 }
 
 
